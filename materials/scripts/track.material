@@ -1,0 +1,14 @@
+material track/Diffuse
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture track_final.jpg
+            }
+        }
+    }
+}
